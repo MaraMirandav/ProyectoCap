@@ -4,157 +4,250 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CAP - El Manzano</title>
-
-    <!-- CDN Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!-- CSS local -->
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-
-<!-- BODY -->
 <body>
-    <!-- NAV -->
-    <nav class="navbar fixed-top navbar-expand-lg header-transparent my-0 py-0"> <!--  bg-secondary bg-gradient -->
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mx-auto d-flex align-items-center">
-                    <a class="navbar-brand py-0" href="#">
-                        <img src="assets/img/logo-cap.png" alt="Logo de la CAP El Manzano" srcset="" height="70px">
-                    </a>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Valores</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Directorio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Historia</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Documentación</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="#">Estatuto</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">Reglamento</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Consejos</a>
-                    </li>
+    <!-- Header -->
+    <header>
+        <!-- Navbar -->
+        <nav>
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Nosotros</a></li>
+                <li><a href="">Directorio</a></li>
+                <li><a href="">Historia</a></li>
+                <li><a href="">Valores</a></li>
+                <li><a href="">Estatuto</a></li>
+                <li><a href="">Reglamento</a></li>
+                <li><a href="">Consejos</a></li>
+            </ul>
+        </nav>
+        <!-- END Navbar -->
+        <h1>Comunidad de Agua Potable El Manzano</h1>
+        <h2>San José de Maipo</h2>
+        <h3>Bienvenido</h3>
+        <button>Ingresar</button>
+    </header>
+    <!-- END Header -->
+    <!-- Sección 1: Contacto -->
+    <section id="contacto">
+        <h2>Contactos</h2>
+        <article id="contacto-oficina">
+            <img src="/assets/img/contacto-oficina.png" alt="Contacto Oficina">
+            <h4>Oficina</h4>
+            <br>
+            <a id="contacto-oficina-email" href="">administracion@capelmanzano.cl</a>
+            <br>
+            <h5>Fono:</h5>
+            <a id="contacto-oficina-tel" href="">2 2735 4176</a>
+        </article>
+        <article id="contacto-emergencias">
+            <img src="/assets/img/contacto-emergencias.png" alt="Contacto Emergencias">
+            <h4>Emergencias</h4>
+            <a id="contacto-emergencia-email" href="">info@capelmanzano.cl</a>
+            <br>
+            <h5>Fono:</h5>
+            <a id="contacto-emergencia-tel" href="">+56 9 5972 0512</a></article>
+    </section>
+    <!-- Sección 2: Nosotros -->
+    <section id="nosotros">
+        <div id="nosotros-about">
+            <h2>Sobre Nosotros</h2>
+            <article>
+                <h3>Funcionamiento y Objetivos de la Comunidad de Agua Potable El Manzano</h3>
+                <p>
+                    La Comunidad de Agua Potable El Manzano (CAP) es una organización funcional sin fines de lucro, regida por la Ley N.º 19.418 sobre Juntas de Vecinos, ubicada en la comuna de San José de Maipo. Todos los socios de la CAP tienen igualdad de derechos y deberes, y están representados por un directorio elegido democráticamente, cuyos integrantes trabajan de manera voluntaria y sin recibir remuneración, representando los intereses de la comunidad.
+                <br>
+                    La CAP cuenta con un equipo de trabajo conformado por personal administrativo y técnico contratado, que opera bajo la supervisión del directorio. Asimismo, dispone de una red propia para la subdistribución de agua potable. Su objetivo principal es adquirir agua al por mayor y administrarla de manera equitativa en beneficio de todos sus socios.
+                </p>
+            </article>
+            <article>
+                <h3>La CAP no es una empresa de servicios sanitarios, tampoco es un APR (agua potable rural), ¿qué significa esto?</h3>
+                <p>
+                    En 1988, la Ley General de Servicios Sanitarios definió áreas de concesión y las asignó a empresas sanitarias, como Aguas Andinas. Estas empresas están reguladas y tienen la obligación de garantizar el suministro de agua potable con estándares mínimos de calidad y continuidad operacional en las zonas urbanas. Sin embargo, la localidad de El Manzano se encuentra fuera de las áreas de concesión definidas por esta ley.
+                    <br>
+                    A pesar de ello, la CAP ha logrado garantizar el suministro de agua potable mediante un convenio establecido en virtud del <span>artículo 52 bis de la Ley General de Servicios Sanitarios</span>. Este artículo ofrece una solución legal que permite a comunidades rurales, como El Manzano, acceder al agua potable a través de acuerdos con empresas sanitarias, incluso cuando se encuentran fuera de las áreas de concesión urbanas. Gracias a este convenio firmado en 1988, la CAP adquiere agua potable de una empresa sanitaria para distribuirla equitativamente entre sus socios.
+                    <br>
+                    Además, la CAP mantiene su compromiso con la mejora continua en el acceso al agua dentro de su comunidad. Actualmente, trabaja de manera activa en la gestión de recursos que fortalezcan su capacidad operativa, asegurando un suministro sostenible y equitativo para todos los habitantes de El Manzano.
+                    <br>
+                    Los sistemas de Agua Potable Rural (APR) son organizaciones comunitarias creadas para satisfacer las necesidades de agua en zonas rurales fuera de las áreas de concesión. Estas organizaciones poseen derechos de aprovechamiento de agua sobre fuentes específicas, lo que les permite captar, tratar y distribuir el recurso entre sus usuarios. Sin embargo, la CAP no cuenta con derechos de aprovechamiento de agua, por lo que no puede ser reconocida legalmente como un APR.
+                    <br>
+                    <span>La tarea de la CAP es fundamental y desafiante: gestionar y distribuir un recurso esencial para nuestra comunidad. Este esfuerzo requiere el compromiso y la colaboración de todos. Hagamos un uso responsable del agua, participemos activamente y apoyemos esta labor conjunta. ¡El agua es vida, cuidémosla juntos!</span>
+                </p>
+            </article>
+        </div>
+        <div id="nosotros-mv">
+            <article>
+                <h3>Quiénes Somos</h3>
+                <p>
+                    La Comunidad de Agua Potable El Manzano es una organización sin fines de lucro, formada por socios del sector de El Manzano, comuna de San José de Maipo. Nos encargamos de administrar y mantener nuestras propias redes de distribución de agua potable, garantizando el acceso al agua para consumo humano como un derecho fundamental.
+                </p>
+            </article>
+            <article>
+                <h3>Nuestra Misión</h3>
+                <p>
+                    En la Comunidad de Agua Potable El Manzano (CAP), estamos comprometidos con la gestión eficiente del suministro de agua potable, garantizando la cantidad y calidad necesarias para las actividades domésticas de nuestra comunidad. Promovemos la sustentabilidad de los recursos naturales, tanto los propios como los adquiridos mediante convenio con la empresa sanitaria.
+                </p>
+            </article>
+            <article>
+                <h3>Nuestra Visión</h3>
+                <p>
+                    Aspiramos a ser una organización proactiva e innovadora, capaz de afrontar los desafíos de los tiempos actuales. Nos enfocamos en desarrollar proyectos de vanguardia que brinden respuestas eficientes a las necesidades de nuestros socios, fortaleciendo el compromiso, la dedicación y la capacitación de nuestros miembros. En la actualidad, hemos incorporado tecnologías que nos permiten mejorar día a día la calidad de nuestro servicio, siempre con un firme compromiso hacia el respeto por el medio ambiente y la promoción del desarrollo sustentable de nuestra comunidad.
+                </p>
+            </article>
+        </div>
+    </section>
+    <!-- Sección 3: Directorio -->
+    <section>
+        <h2>Nuestro Directorio</h2>
+        <article>
+            <h4>Manuel Felipe Trincado Cornejo</h4>
+            <p>Presidente</p>
+        </article>
+        <article>
+            <h4>Myriam Ximena Guzmán Bestard</h4>
+            <p>Tesorera</p>
+        </article>
+        <article>
+            <h4>Juana de las Mercedes Prado Toro</h4>
+            <p>Secretaria</p>
+        </article>
+        <article>
+            <h4>Manuel Moisés Ovalle Vera</h4>
+            <p>Director</p>
+        </article>
+        <article>
+            <h4>Juan Carlos Peralta Quintanilla</h4>
+            <p>Director</p>
+        </article>
+    </section>
+    <!-- Sección 4: Historia -->
+    <section>
+        <h2>Historia de la Comunidad de Agua Potable El Manzano</h2>
+        <h3>Según relato proporcionado por Don Iván Bustamante (julio, 2019)</h3>
+        <article>
+            <h5>1910</h5>
+            <p>La localidad y Fundo El Manzano reciben conexión de agua potable por parte de EMOS a cambio de permitir el paso del acueducto Laguna Negra.</p>
+        </article>
+        <article>
+            <h5>1966</h5>
+            <p>La Corporación de Reforma Agraria (CORA), hoy parte del Servicio Agrícola y Ganadero (SAG), inició el proceso de subdivisión territorial del Fundo El Manzano, que anteriormente era una zona agrícola-ganadera. En este territorio se encontraba una lechería y residían varias familias campesinas, organizadas en un sindicato de trabajadores.</p>
+        </article>
+        <article>
+            <h5>1969</h5>
+            <p>La CORA subdividió el Fundo El Manzano en siete hijuelas (entre ellas Las Lajas, Río Colorado y Fundo Lorena, entre otras). La hijuela 4 fue distribuida entre los 15 inquilinos de la siguiente manera: 12 parcelas, que incluían el sitio donde se encontraba su respectiva vivienda; 3 sitios (parcelas de menor extensión); y 4 sectores destinados a bienes comunes. Las otras 6 hijuelas pasaron a manos del Estado de Chile. De esta manera, la mayoría de los sitios domiciliarios quedaron separados de las parcelas agrícola-ganaderas.</p>
+        </article>
+        <article>
+            <h5>1976</h5>
+            <p>Las escrituras con los títulos de dominio fueron recibidas por las familias.</p>
+        </article>
+        <article>
+            <h5>1982</h5>
+            <p>Después de seis años, los nuevos propietarios pudieron subdividir sus terrenos, y en la mayoría de los casos, vendieron las parcelas completas. Mientras tanto, la necesidad de agua para consumo humano se solucionaba mediante conexiones individuales realizadas con mangueras, que se conectaban a la única matriz existente, la cual recorría la localidad desde la planta de EMOS hasta el sector de El Establo.</p>
+        </article>
+        <article>
+            <h5>1985</h5>
+            <p>A lo largo de los años, la cantidad de vecinos residentes en El Manzano aumentó, superando las 80 familias. Esto provocó que las redes de distribución, formadas por mangueras dispersas de manera desordenada, comenzaran a presentar problemas en el suministro continuo, llegando a un punto en que la situación se volvió insostenible.
+            Ante esta problemática, la comunidad organizada formó la primera junta de vecinos (presidida por Don Daniel Molina hasta 1992) y, paralelamente, el primer comité de agua (presidido por Don Antonio Retamal hasta 1988). El principal objetivo del comité de agua fue entablar conversaciones con EMOS para gestionar un mayor suministro de agua para la comunidad.</p>
+        </article>
+        <article>
+            <h5>1988</h5>
+            <p>Gracias a las complejas y arduas gestiones realizadas por ambas organizaciones, se logró firmar un convenio con EMOS, que estableció el suministro de 100 m³ diarios de agua clorada. Sin embargo, el comité quedó fuera del área operacional de la empresa sanitaria.
+            En virtud de este convenio, y con la importante presencia de la Municipalidad de San José de Maipo, EMOS comenzó a facturar por el agua suministrada. Esto dio inicio al cobro de la cuota correspondiente entre los socios, estableciéndose el monto de los aportes en función del diámetro de las conexiones.</p>
+        </article>
+        <article>
+            <h5>1991</h5>
+            <p>Con el objetivo de alinear los ordenamientos jurídicos al nuevo marco legal posterior a la dictadura militar, se constituyó la 'Comunidad de Agua Potable (CAP) El Manzano', con personalidad jurídica N° 49, el 12 de marzo de 1991, con la colaboración del Superintendente de Aguas, Don Eugenio Celedón.
+            Ante la ineficiencia de la infraestructura de agua potable y la necesidad urgente de reemplazar las mangueras por una red de distribución adecuada, con materiales y diámetros apropiados, además de implementar medidores individuales para cada conexión, se solicitaron aportes extraordinarios a los socios.
+            Las mejoras y ampliaciones posteriores de la red de distribución fueron financiadas principalmente con las cuotas de incorporación que pagaban los nuevos socios.</p>
+        </article>
+        <article>
+            <h3>Cronología de presidentes de la CAP El Manzano</h3>
+            <div>
+                <ul>
+                    <li>Daniel Daza</li>
+                    <li>Mario Aguayo</li>
+                    <li>Santiago Viani</li>
+                    <li>Laura Fica</li>
+                    <li>Luis Bergez</li>
+                    <li>Laura Fica</li>
                 </ul>
             </div>
-        </div>
-    </nav>
-    <!-- NAV END -->
-
-    <!-- HEADER -->
-
-    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="assets/img/hero-bg.jpeg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>Comunidad de Agua Potable<br>El Manzano</h1>
-                    <p>San José de Maipo</p>
-                    <p>Bienvenido</p>
-                    <button type="button" class="btn btn-outline-light">Ingresar</button>
-                </div>
+            <div>
+                <ul>
+                    <li>Johanna Cavada</li>
+                    <li>Iván Bustamante</li>
+                    <li>Guillermette Konig</li>
+                    <li>Juana Prado</li>
+                    <li>Adolfo Díaz</li>
+                    <li>Felipe Trincado (actualmente)</li>
+                </ul>
             </div>
-        </div>
-    </div>
+        </article>
+    </section>
+    <!-- Sección 5: Valores -->
+    <section>
+        <h2>Valores que nos caracterizan</h2>
+        <article>
+            <h4>Compromiso</h4>
+            <p>Actuamos con dedicación y responsabilidad, guiados por nuestra misión y visión. Estas son las bases fundamentales de nuestras acciones, con el objetivo de satisfacer las necesidades de nuestros socios y contribuir al bienestar de nuestra localidad.</p>
+        </article>
+        <article>
+            <h4>Trabajo en equipo</h4>
+            <p>Fomentamos una comunicación abierta y efectiva, promoviendo la colaboración y un ambiente de trabajo armónico. El fortalecimiento del trabajo en equipo es esencial para lograr nuestros objetivos comunes.</p>
+        </article>
+        <article>
+            <h4>Integridad</h4>
+            <p>Tomamos decisiones basadas en principios éticos, buscando siempre el desarrollo comunitario sostenible, respetuoso con la naturaleza y alineado con el bien común.</p>
+        </article>
+        <article>
+            <h4>Sentido de pertenencia</h4>
+            <p>Nos esforzamos por aumentar la satisfacción de nuestros socios y empleados, motivándolos a sentirse parte activa de nuestra organización, creando un ambiente inclusivo y de colaboración.</p>
+        </article>
+    </section>
+    <!-- Sección 6: Estatuto -->
+    <section>
+        <h2>Estatuto</h2>
+        <embed src="" type="">
+    </section>
+    <!-- Sección 7: Reglamento -->
+    <section>
+        <h2>Reglamento</h2>
+        <embed src="" type="">
+    </section>
+    <!-- Sección 8: Consejos -->
+    <section>
+        <h2>Algunos Consejos</h2>
+        <h3>para cuidar el agua</h3>
+        <article>
+            <h4>Sanitario</h4>
+            <p>Utiliza inodoros de bajo consumo de agua o instala dispositivos de ahorro en los que puedas ajustar el flujo de agua. Además, evitar el uso innecesario de agua al tirar de la cadena es fundamental. Si no es necesario, no la uses. Un inodoro eficiente puede reducir considerablemente el consumo de agua en el hogar y, por ende, los costos.</p>
+        </article>
+        <article>
+            <h4>Fugas</h4>
+            <p>Revisa periódicamente las instalaciones de agua en tu hogar para detectar posibles fugas. Incluso una pequeña fuga puede generar un desperdicio considerable de agua y, a largo plazo, aumentar las facturas. Reparar rápidamente cualquier fuga es una acción sencilla que puede evitar gastos innecesarios.</p>
+        </article>
+        <article>
+            <h4>Aseo Personal</h4>
+            <p>Reduce el tiempo de las duchas y considera instalar un cabezal de ducha eficiente que limite el flujo de agua sin perder presión. También, apaga el grifo mientras te enjabonas las manos, la cara o el cuerpo. Estos pequeños cambios en tus hábitos diarios pueden tener un gran impacto en el ahorro de agua y en tu economía.</p>
+        </article>
+        <article>
+            <h4>Jardín y Plantas</h4>
+            <p>Riega las plantas por la mañana temprano o al atardecer, cuando el sol no esté tan fuerte. Esto reducirá la evaporación y optimizará el uso del agua. Además, utiliza sistemas de riego por goteo en lugar de mangueras para dirigir el agua directamente a las raíces. El uso eficiente de agua en el jardín puede hacer una gran diferencia en tu consumo total.</p>
+        </article>
+        <article>
+            <h4>Limpieza en Casa</h4>
+            <p>Al limpiar el hogar, usa cubos de agua en lugar de mangueras para tareas como lavar el patio o las ventanas. También, asegúrate de usar productos de limpieza que no requieran grandes cantidades de agua para enjuagar. Así, ahorrarás tanto agua como productos, lo que se reflejará positivamente en tu presupuesto.</p>
+        </article>
+        <article>
+            <h4>Lavandería</h4>
+            <p>Lava las cargas completas de ropa en lugar de hacerlo con cargas pequeñas. Utiliza la lavadora en su capacidad máxima para evitar hacer más lavados de los necesarios. Además, selecciona ciclos de lavado con menos agua si tu lavadora lo permite, y utiliza detergentes que requieran menos enjuague. Estos ajustes ayudarán a reducir el consumo de agua y energía en cada lavado.</p>
+        </article>
+    </section>
+    <!-- Footer -->
+    <footer>
 
-    <!-- HEADER END -->
-
-    <!-- SECTION CONTACTO -->
-
-    <div class="container my-5">
-        <div class="row justify-content-around d-flex">
-            <div class="col-md-4 col-12 text-center">
-                <img src="assets/img/contacto-oficina.png" alt="Contacto oficinas CAP El Manzano" class="" height="150px">
-                <h3>Oficina</h3>
-                <a href="mailto:administracion@capelmanzano.cl">administracion@capelmanzano.cl</a>
-                <br>
-                <label for="">Fono:</label>
-                <a href="tel:+227354176">2 273 54 176</a>
-            </div>
-
-            <div class="col-md-4 col-12 text-center">
-                <img src="assets/img/contacto-emergencias.png" alt="Contacto emergencias CAP El Manzano" class="" height="150px">
-                <h3>Emergencias</h3>
-                <a href="mailto:info@capelmanzano.cl">info@capelmanzano.cl</a>
-                <br>
-                <label for="">Fono:</label>
-                <a href="tel:+56959720512">+56 9 5972 0512</a>
-            </div>
-        </div>
-    </div>
-
-    <!-- SECTION CONTACTO END -->
-
-    <div class="container-fluid bg-secondary bg-gradient">
-        <div class="row ">
-
-            <div class="col-12 d-flex justify-content-center">
-                <h2 class="my-3">Sobre Nosotros</h2>
-            </div>
-
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-12">
-                        <h4>Funcionamiento y Objetivos de la Comunidad de Agua Potable El Manzano</h4>
-                        <p>
-                            La Comunidad de Agua Potable El Manzano (CAP) es una organización funcional sin fines de lucro, regida por la Ley N.º 19.418 sobre Juntas de Vecinos, ubicada en la comuna de San José de Maipo. Todos los socios de la CAP tienen igualdad de derechos y deberes, y están representados por un directorio elegido democráticamente, cuyos integrantes trabajan de manera voluntaria y sin recibir remuneración, representando los intereses de la comunidad.
-                            <br><br>
-                            La CAP cuenta con un equipo de trabajo conformado por personal administrativo y técnico contratado, que opera bajo la supervisión del directorio. Asimismo, dispone de una red propia para la subdistribución de agua potable. Su objetivo principal es adquirir agua al por mayor y administrarla de manera equitativa en beneficio de todos sus socios.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-12">
-                        <h4>La CAP no es una empresa de servicios sanitarios, tampoco es un APR (agua potable rural), ¿qué significa esto?</h4>
-                        <p>
-                            En 1988, la Ley General de Servicios Sanitarios definió áreas de concesión y las asignó a empresas sanitarias, como Aguas Andinas. Estas empresas están reguladas y tienen la obligación de garantizar el suministro de agua potable con estándares mínimos de calidad y continuidad operacional en las zonas urbanas. Sin embargo, la localidad de El Manzano se encuentra fuera de las áreas de concesión definidas por esta ley.
-                            <br>
-                            <br>
-                            A pesar de ello, la CAP ha logrado garantizar el suministro de agua potable mediante un convenio establecido en virtud del artículo 52 bis de la Ley General de Servicios Sanitarios. Este artículo ofrece una solución legal que permite a comunidades rurales, como El Manzano, acceder al agua potable a través de acuerdos con empresas sanitarias, incluso cuando se encuentran fuera de las áreas de concesión urbanas. Gracias a este convenio firmado en 1988, la CAP adquiere agua potable de una empresa sanitaria para distribuirla equitativamente entre sus socios.
-                            <br>
-                            <br>
-                            Además, la CAP mantiene su compromiso con la mejora continua en el acceso al agua dentro de su comunidad. Actualmente, trabaja de manera activa en la gestión de recursos que fortalezcan su capacidad operativa, asegurando un suministro sostenible y equitativo para todos los habitantes de El Manzano.
-                            <br>
-                            <br>
-                            Los sistemas de Agua Potable Rural (APR) son organizaciones comunitarias creadas para satisfacer las necesidades de agua en zonas rurales fuera de las áreas de concesión. Estas organizaciones poseen derechos de aprovechamiento de agua sobre fuentes específicas, lo que les permite captar, tratar y distribuir el recurso entre sus usuarios. Sin embargo, la CAP no cuenta con derechos de aprovechamiento de agua, por lo que no puede ser reconocida legalmente como un APR.
-                            <br>
-                            <br>
-                            La tarea de la CAP es fundamental y desafiante: gestionar y distribuir un recurso esencial para nuestra comunidad. Este esfuerzo requiere el compromiso y la colaboración de todos. Hagamos un uso responsable del agua, participemos activamente y apoyemos esta labor conjunta. ¡El agua es vida, cuidémosla juntos!
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
-
-
+    </footer>
+    <!-- End Footer -->
 </body>
-<!-- BODY END -->
-
-<!-- CDN JS Bootstrap -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<!-- js -->
-<script src="assets/js/script.js" type="module"></script>
 </html>

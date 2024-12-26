@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* HEADER */
+header {
+    background-image: url("/assets/img/hero-bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+/* END HEADER */
+
+/* NAV */
+nav ul {
+    list-style: none;
+}
+
+/* END NAV */
+
+#contacto {
+    display: flex;
+}
+
+#contacto img {
+    width: 250px;
+}
