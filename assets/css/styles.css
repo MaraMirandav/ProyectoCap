@@ -24,8 +24,8 @@ nav {
     height: 4em;
 }
 #nav-blur {
-    background-color: rgba(127, 255, 212, 0.5);
-    filter: blur(2px);
+    background-color: rgba(0, 105, 148, 0.5);
+    filter: blur(10px);
     position: absolute;
     height: 100%;
     width: 100%;
@@ -63,13 +63,17 @@ nav ul li a:hover {
 /* END HERO */
 
 /* GLOBALES */
-main {
-    background-color: rgb(255, 245, 245);
+
+body {
+    background-color: rgb(96, 96, 96);
 }
 .secciones {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(250, 250, 250);
+    margin: 25px;
+    border-radius: 10px;
 }
 .secciones h2 {
     font-size: 2em;
