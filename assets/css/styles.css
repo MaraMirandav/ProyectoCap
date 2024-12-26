@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat';
 }
 /* HEADER */
 header {
@@ -9,20 +10,74 @@ header {
     background-size: cover;
     background-position: center;
     height: 80vh;
+    display: flex;
 }
 /* END HEADER */
 
 /* NAV */
-nav ul {
-    list-style: none;
+nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4em;
 }
-
+#nav-blur {
+    background-color: rgba(127, 255, 212, 0.5);
+    filter: blur(2px);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li {
+    padding: 10px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1em;
+    transition: font-size 0.5s, color 0.5s;
+}
+nav ul li a:hover {
+    color: red;
+    font-size: 1.2em;
+}
 /* END NAV */
 
-#contacto {
+/* HERO */
+#header-div-hero {
+    width: 100%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+/* END HERO */
 
-#contacto img {
-    width: 250px;
+/* GLOBALES */
+main {
+    background-color: rgb(255, 245, 245);
 }
+.secciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.secciones h2 {
+    font-size: 2em;
+}
+/* END GLOBALES */
+
+
+
+/* SECCION -> CONTACTO */
+
+/* END */
